@@ -4,6 +4,7 @@ double flowRate;
 float total=0;
 float water; 
 float a[2000];
+int time="declare you time in sec ";
 volatile int count; 
 void setup() {
   pinMode(flowPin, INPUT);         
@@ -26,9 +27,9 @@ void loop() {
    total=total+a[i];
    delay(1000);     
    i=i+1;
-   if(i==1440)
+   if(i==time)
    {
-  water=(total/i)*1440;
+  water=(total/i)*3600; 
   i=0;
   total=0;
   Serial.Println(water)
