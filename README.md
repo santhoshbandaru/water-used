@@ -18,7 +18,7 @@
 
  **INITIATION** :
 
-     Water plays vital role in our day to day life.
+   Water plays vital role in our day to day life.
      But these days water crisis has become a major global risk.
      In India people from villages are walking for miles to get a bucket of water.
      54% of Indian’s are suffering from water stress.So,we need to conserve water for our future generations.
@@ -31,7 +31,7 @@
 
 **INTRODUCTION** :
 
-     Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor.
+   Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor.
      When water flows through the rotor, rotor rolls. Its speed changes with different rate of flow. 
      The hall-effect sensor outputs the corresponding pulse signal. 
      This one is suitable to detect flow in water dispenser.
