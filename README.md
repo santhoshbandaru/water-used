@@ -95,26 +95,7 @@ Initially we calculated readings of flow sensor for every one minute of time int
      Pulse frequency (Hz) / 7.5 = flow rate in L/min.
 
    A flow meter works by measuring the amount of a liquid, gas, or steam flowing through or around the flow meter sensors. ... The flow (Q) is equal to the cross-sectional area of the pipe (A) in a volumetric flow meter, and the velocity of the flowing fluid (v): Q = A * 
-     **Features** :
-     • Model: YF-S201    
-     • Sensor Type: Hall effect  
-     • Working Voltage: 5 to 24v DC (min tested working voltage 4.5V)  
-     • Max current draw: 15mA @ 5V  
-     • Output Type: 5V TTL  
-     • Working Flow Rate: 1 to 30 Liters/Minute  
-     • Working Temperature range: -25 to +80℃  
-     • Working Humidity Range: 35%-80% RH   
-     • Accuracy: ±10%  
-     • Maximum water pressure: 2.0 MPa  
-     • Output duty cycle: 50% +-10%  
-     • Output rise time: 0.04us  
-     • Output fall time: 0.18us  
-     • Flow rate pulse characteristics: Frequency (Hz) = 7.5 * Flow rate (L/min)  
-     • Pulses per Liter: 450 
-     • Durability: minimum 300,000 cycles  
-     • Cable length: 15cm  
-     • 1/2" nominal pipe connections, 0.78" outer diameter, 1/2" of thread  
-     • Size: 2.5" x 1.4" x 1.4"  
+   
    
    connection details:
      • Red wire : +5V  
@@ -127,26 +108,14 @@ Initially we calculated readings of flow sensor for every one minute of time int
    An ultrasonic sensor is an instrument that measures the distance to an object using ultrasonic sound waves.An ultrasonic sensor uses a transducer to send and receive ultrasonic pulses that relay back information about an object’s proximity.  
      High-frequency sound waves reflect from boundaries to produce distinct echo patterns.
      The ultrasonic sensor works on the principle of SONAR and RADAR system which is used to determine the distance to an object. An ultrasonic sensor generates the high-frequency sound (ultrasound) waves. 
-     Operating voltage: +5V  
-     •Theoretical  Measuring Distance: 2cm to 450cm  
-     •Practical Measuring Distance: 2cm to 80cm  
-     •Accuracy: 3mm  
-     •Measuring angle covered: <15°  
-     •Operating Current: <15mA  
-     •Operating Frequency: 40Hz  
-
+    
 
    3. NODEMCU : 
        
   Node-MCU is an open source IoT platform. It includes firmware which runs on the ESP8266 WiFi -SoC from Express if, and hardware which is based on the ESP-12 module. The term “Node-MCU” by default refers to the firmware rather than the dev kits. The firmware ESP8266 uses the c/c++/Lua scripting language. It is built on the  ESP8266. It uses many open source projects. LUA based interactive firmware for Express if ESP8622 Wi-Fi-SoC, as well as an open-source hardware board that contrary to the $3 ESP8266 Wi-Fi modules includes a CP2102 TTL to USB chip for programming and debugging, is breadboard-friendly, and can simply be powered via its micro USB port.
      NodeMCU provides access to the GPIO (General Purpose Input/Output) and a pin mapping table is part of the API documentation.[17]
      This work aims to build an Internet based system that enables the remote monitoring of a water/flow meters. 
-     **Features** :  
-     •Wi-Fi Module – ESP-12E module similar to the ESP-12 module but with 6 extra GPIOs.  
-     • USB – micro USB port for power, programming and debugging  
-     •Headers – 2x 2.54mm 15-pin header with access to GPIOs, SPI, UART, ADC, and power pins Misc – Reset and Flash buttons 
-     •Power – 5V via micro USB port,operating voltage - 3.3v
-     •Dimensions – 49 x 24.5 x 13mm  
+  
      
    4. RELAY :
      
